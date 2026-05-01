@@ -5,7 +5,7 @@ API REST profesional para gestión de facturas construida con FastAPI.
 ##  Stack tecnológico
 
 - **Python 3.11**
-- **FastAPI** — framework web
+- **FastAPI** — framework para APIs REST
 - **Pydantic v2** — validación de datos
 - **Docker** — contenedorización
 - **Uvicorn** — servidor ASGI
