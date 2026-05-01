@@ -11,11 +11,14 @@ API REST profesional para gestión de facturas construida con FastAPI.
 - **Uvicorn** — servidor ASGI
 
 ##  Estructura del proyecto
+
+```
 app/
 ├── core/        # configuración central
 ├── models/      # modelos Pydantic
 ├── routers/     # endpoints por módulo
 └── main.py      # entrada principal
+```
 
 ##  Cómo correr el proyecto
 
@@ -45,3 +48,9 @@ uvicorn app.main:app --reload
 | DELETE | /facturas/{numero} | Eliminar |
 
 ##  Documentación
+
+Accede al Swagger UI en:
+
+```
+http://localhost:8000/docs
+```
